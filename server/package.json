@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "cms project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladivladi55/cms-project.git"
+  },
+  "author": "Vladko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladivladi55/cms-project/issues"
+  },
+  "homepage": "https://github.com/Vladivladi55/cms-project#readme",
+  "dependencies": {
+    "async": "^3.2.3",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.7",
+    "shortid": "^2.2.16",
+    "validator": "^13.7.0"
+  }
+}
